@@ -19,17 +19,17 @@ The second plugin I wrote was the all-important Pivotal Tracker plugin. This plu
 
 
 
-	
-  * pt story create "Title" "Description" bug|feature|chore|release -- Create a story
 
-	
-  * pt getmine started|finished|delivered|accepted|rejected|unstarted|unscheduled -- Get a list of all stories that belong to you
+  * `pt story create "Title" "Description" bug|feature|chore|release` -- Create a story
 
-	
-  * pt start #story_id -- Start a particular story.
 
-	
-  * pt start|tell next bug|feature|chore [mine] -- Start or tell the next story of a given type. Optionally supply 'mine' at the end of the message to only work on your own stories.
+  * `pt getmine started|finished|delivered|accepted|rejected|unstarted|unscheduled` -- Get a list of all stories that belong to you
+
+
+  * `pt start #story_id` -- Start a particular story.
+
+
+  * `pt start|tell next bug|feature|chore [mine]` -- Start or tell the next story of a given type. Optionally supply 'mine' at the end of the message to only work on your own stories.
 
 
 The plugins system is very extensible, so you can create a plugin to do pretty much anything!

@@ -25,7 +25,7 @@ The good news is that Python's unittest framework makes this easy. You can overr
 
 
 
-``` python
+{% highlight python %}
 import pymongo
 from django.test import TestCase
 
@@ -56,17 +56,11 @@ class MyTestCase(TestCase):
 
     def tearDown(self):
         self.db.drop_collection('mytestcollection')
-```
-
-
-
+{% endhighlight %}
 
 What this does is `setUp()` a collection in the `mytestcollection` collection, runs the `my_doc_published` test and then tears down the test database environment by dropping the `mytestcollection` collection.
 
 Things to remember for `setUp()` and `tearDown()`:
-
-
-
 
   * `setUp()` is called before every test method in your TestCase class.
 
@@ -80,4 +74,3 @@ Things to remember for `setUp()` and `tearDown()`:
 
 And there you have it! Django makes testing even non-ORM datasources a snap, if you know how to wire it up.
 **UPDATE:** Some would say that database fixtures and setting up/tearing down database environments as part of your unit tests is not "unit testing". This is not entirely accurate, because in order to do unit tests that rely on backend data, you **must** instantiate and tear down pristine database environments.
-

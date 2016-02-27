@@ -32,42 +32,33 @@ Setting this up for your django project is simple as pie. It is helpful to have 
 
 Add the following to a script in a directory of your choosing (~/bin/vim_wrapper is where mine is):
 
-``` bash
+{% highlight bash %}
 #!/bin/bash
 export PROJECT=`python -c "import os; print os.path.basename(os.getcwd())"`
 export PYTHONPATH="/path/to/your/projects/parent/directory/"
 export DJANGO_SETTINGS_MODULE=$PROJECT.settings vim
 $@
-```
+{% endhighlight %}
 
 
 Then add the following line to your ~/.bash_profile or equivalent:
 
-
-```
-alias vi="vim_wrapper"
-```
-
+`alias vi="vim_wrapper"`
 
 Or, you can call your vim_wrapper script by hand. (`vim_wrapper file_to_edit.py`)
 
 Next, add the following lines to your ~/.vimrc file:
 
 
-```
+{% highlight vim %}
 filetype plugin on
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-```
+{% endhighlight %}
 
-
-I also prefer to re-map the default key binding (<C-x><C-o>) to <C-space>, so I accomplish this by also adding the following line to my ~/.vimrc file:
-
-```
-inoremap <C-space> <C-x><C-o>
-```
+I also prefer to re-map the default key binding (<C-x><C-o>) to <C-space>, so I accomplish this by also adding the following line to my ~/.vimrc file: `inoremap <C-space> <C-x><C-o>`
 
 
 I also found [this trick](http://blogs.gnome.org/lharris/2008/07/20/code-completion-with-vim-7/) today while searching around...
@@ -78,7 +69,7 @@ I also found [this trick](http://blogs.gnome.org/lharris/2008/07/20/code-complet
 
 Add the following to your ~/.vimrc and you should be good to go. It works like a charm for me.
 
-```
+{% highlight vim %}
 function! SuperCleverTab()
     if strpart(getline('.'), 0, col('.') - 1) =~ '^\s*$'
         return "\"
@@ -94,39 +85,29 @@ function! SuperCleverTab()
 endfunction
 
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
-```
+{% endhighlight %}
 
 
 If you find yourself writing code in other languages, the following lines in your vimrc should be adequate:
 
-```
+{% highlight vim %}
 filetype plugin on
 set ofu=syntaxcomplete#Complete
-```
+{% endhighlight %}
 
 
-You can now test that your installation works by changing directories to one of your django projects, firing up vim and running the following command:
-
-```
-:python from django import db
-```
+You can now test that your installation works by changing directories to one of your django projects, firing up vim and running the following command: `:python from django import db`
 
 
 If you do not get a horrible error, you are good to go!
 
 You can now access code completion by the following methods:
 
-
-
-
   * `<C-p>` - Shows a list of all local symbols. This is good if you do not have a tags file associated with the file you are editing.
-
 
   * `<C-space>` - Shows a list of all available symbols. You need to set up a tags file, which is outside the scope of this blog post
 
-
   * `<C-x><C-o>` - The original keystroke sequence that we re-mapped C-space to.
-
 
   * `<Tab>` - The all-powerful tab!`
 

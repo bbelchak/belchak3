@@ -16,8 +16,7 @@ tags:
 
 Ever have this problem? You just rebuilt a machine, and when you go to SSH into it, you get the following message:
 
-    
-    
+
     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -30,5 +29,5 @@ OpenSSH comes with a command called `ssh-keygen` that allows you to generate and
 
 Simple usage for this would be:
 
-    
+
     ssh-keygen -R HOSTNAME

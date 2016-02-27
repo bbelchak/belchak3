@@ -23,11 +23,8 @@ I came across this little tip to re-enable the key repeat, and my life is measur
 
 Run the following in your Terminal.app:
 
-
-
 ```
 $ defaults write -g ApplePressAndHoldEnabled -bool false
 ```
-
 
 Then reboot, and you should be good to go!

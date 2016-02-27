@@ -26,7 +26,7 @@ Let's get started...
 
 First of all, you need to define your models:
 
-``` python
+{% highlight python %}
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -39,13 +39,13 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-```
+{% endhighlight %}
 
 
 What we have done here is created a news post item. Let's test it!
 
 
-``` python
+{% highlight python %}
 class PostTestCase(TestCase):
     fixtures = ['test_data.json']
     def setUp(self):
@@ -73,15 +73,12 @@ class PostTestCase(TestCase):
         response = self.c.get('/news/get_post/1/')
         self.assertEqual(response.status_code, 200)
         self.assertNotEqual(response.content, '{}')
-```
-
-
-
+{% endhighlight %}
 
 One of the really cool thing about testing with django is that it comes with a testing client that allows you to make requests just like a real user would. As you can see in our `test_user_can_read()` method, we have used the client to make a GET request against a URL. You can make a POST request just as easily:
 
 
-``` python
+{% highlight python %}
 def test_i_read_this(self):
     """
     Tests a new user marking the story as read.
@@ -90,16 +87,11 @@ def test_i_read_this(self):
     response = self.c.post('/news/read/1/', {'add':True})
     self.assertEqual(response.status_code, 200)
     self.assertEquals(response.content, '{\n    "read": true\n}')
-```
-
-
+{% endhighlight %}
 
 In the previous code sample, the client sends a POST request to `/news/read/1/` with the `{'add':True}` data. This gets converted to form data and submitted via the POST. The request returns back JSON, which we match up against what we expect it to return.
 
 Here are some things to remember when you are writing your test cases:
-
-
-
 
   * `setUp()` gets called before **every** test method in your TestCase.
 

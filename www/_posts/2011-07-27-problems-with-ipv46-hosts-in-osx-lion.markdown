@@ -20,6 +20,6 @@ Recently, after my upgrade to OSX Lion, I started running into an issue where it
 
 OSX is now doing IPv6 by default with no way that I have found to disable it yet, and so that means that if you have hosts that you want to reference with locally defined hostnames, you are going to have to create an IPv6 entry for them as well.
 
-Here is a great site that I found that helps with the conversion: [SubnetOnline.com](http://www.subnetonline.com/pages/converters/ipv4-to-ipv6.php) 
+Here is a great site that I found that helps with the conversion: [SubnetOnline.com](http://www.subnetonline.com/pages/converters/ipv4-to-ipv6.php)
 
 I am sure that there are better ways to do this, but I just wanted to share this quick little hack that I found with you. If you have a better way, please let me know!

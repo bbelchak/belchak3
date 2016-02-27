@@ -25,10 +25,10 @@ A few months ago, I started investigating the health benefits of standing while 
   * **Standing at a desk helps people with back problems**. Humans were not made for sitting, and doing so for long periods of time can be really hard on your hips and lower back.
 
 
-  * **Improved posture. **Standing can help improve your posture, which can relieve pain in your lower and upper back, and neck.
+  * **Improved posture.** Standing can help improve your posture, which can relieve pain in your lower and upper back, and neck.
 
 
-  * **More breaks. **I find that I take more breaks, which makes me happier and healthier. While standing, it is easier to just walk away instead of hauling yourself out of a chair.
+  * **More breaks.** I find that I take more breaks, which makes me happier and healthier. While standing, it is easier to just walk away instead of hauling yourself out of a chair.
 
 
 After my research, I decided to convert my cheap IKEA desk into a standing desk by raising the legs up as far as they could go and then stacking books and Rubbermaid bins to get the height on the keyboard and monitors right. Here's what I ended up with:
@@ -41,7 +41,7 @@ I reverted back to a sitting desk, and kept wishing for a standing option that w
 
 Then, I discovered the Ergotron WorkFit-S while searching around for standing desk options. I loved the youtube video I found here:
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lK4yYENEtHA" frameborder="0" allowfullscreen></iframe>
 
 I bought the WorkFit-S Combo (laptop + LCD) on Amazon with overnight shipping with my Amazon Prime account, and it arrived very quickly. I was a bit worried because the tech specs indicated that the maximum monitor size is 20" while using a laptop. I spoke with one of their marketing people on Twitter, and they were very helpful, checking with their support staff and product managers to provide me with any tips that they could dig up while I anxiously awaited the FedEx delivery guy.
 
