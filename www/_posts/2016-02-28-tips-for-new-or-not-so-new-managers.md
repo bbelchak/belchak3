@@ -74,6 +74,8 @@ Some of my favorite books are:
   * [Drive: The Surprising Truth About What Motivates Us](http://www.amazon.co.uk/Drive-Surprising-Truth-About-Motivates/dp/184767769X/) by Daniel H. Pink
   * [Managing Humans: Biting and Humorous Tales of a Software Engineering Manager](http://www.amazon.co.uk/Managing-Humans-Humorous-Software-Engineering/dp/1430243147/) by Michael Lopp
 
+A service that I think is amazing for getting key insights and 'Cliff Notes' is [Blinkist](http://blinki.st/2780c1c05ba7). They give you a 2 or 15 minute summary of thousands of non-fiction books. Fantastic if you only have a few minutes to spare, and you want to get more than the 'back of the dust jacket' summary of a book before investing a bunch of time in reading it.
+
 Have regular 1:1s with your direct reports
 ------------------------------------------
 I cannot overstate the importance of having regular 1:1 meetings with your directs. This is when you focus on them as a person. Be intentional about learning as much about your employees as possible.
