@@ -1,2 +1,3 @@
-www/_deploy.yml
+www/_*deploy.yml
 www/.code-highlighter-cache
+www/.deploy
