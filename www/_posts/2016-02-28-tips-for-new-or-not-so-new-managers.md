@@ -11,9 +11,6 @@ description: "So you've just gotten that management role for which you've been g
 
 So you've just gotten that management role for which you've been gunning for months or years now. Congratulations! You're a few weeks in, and you're realizing that you are in over your head, and that maybe this isn't all it's cracked up to be. You're looking for advice, and I've got some for you!
 
-<!--more-->
-
-
 Have a story you want to tell
 -----------------------------
 Some people call this a vision. I like the concept of 'telling a story'. Think about what you want your story to be six months, a year, and 3 years down the road. Use some of your thinking time to put yourself into the future and look back on the time period you're going for. Think about what the journey looked like, and write it down.
@@ -32,6 +29,8 @@ In David Marquet’s book [Turn the Ship Around](http://www.amazon.co.uk/Turn-Sh
 
 Here's a great talk where he shares some of these ideas:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OqmdLcyES_Q" frameborder="0" allowfullscreen></iframe>
+
+<!--more-->
 
 Give trust freely, but work to earn trust
 -----------------------------------------
