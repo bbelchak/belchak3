@@ -34,7 +34,11 @@ image:
     {% endif %}
   </header>
   <div class="entry-content">
-    {{ post.content }}
+    {% if post.content contains '<!--more-->' %}
+        {{ post.content | split:'<!--more-->' | first }} <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">Continue reading...</a>
+    {% else %}
+        {{ post.content }}
+    {% endif %}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
